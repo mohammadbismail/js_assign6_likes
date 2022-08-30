@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 500px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 50px 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+button {
+  background-color: gold;
+  box-shadow: 3px 3px black;
+  padding: 5px 20px;
+  font-weight: bold;
+}
